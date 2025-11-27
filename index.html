@@ -28,24 +28,26 @@
             <button class="btn loginbtn" onclick="document.getElementById('id_login').style.display='block'"
                 style="width:auto;">Login</button>
 
+
+                  <!--ÁREA DE LOGIN -->
+
             <div id="id_login" class="modal">
 
                 <form class="modal-content animate clearfix" method="post">
                     <div class="imgcontainer">
                         <span onclick="document.getElementById('id_login').style.display='none'" class="close"
                             title="Close Modal">&times;</span>
-                        <img src="img/img_avatar2.png" class="avatar">
+                        <img src="img/Logo-TereVerde.png" class="avatar">
                     </div>
-
-                <!--ÁREA DE LOGIN -->
 
                     <div class="container">
                         <label for="uname"><b>Login</b></label>
-                        <input type="text" placeholder="Informe seu usuário" name="uname" required>
+                        <input type="text" placeholder="Informe seu usuário" name="uname" >
                         <br>
                         <label for="psw"><b>Senha</b></label>
-                        <input type="password" placeholder="Informe sua senha" name="psw" required>
+                        <input type="password" placeholder="Informe sua senha" name="psw" >
                         <br>
+                        <button class="btn acessobtn"><a href="/tereverde-mvp/Cadastro.html"></a> Cadastrar </button>
                         <button type="submit" class="btn acessobtn">Acessar</button>
                         <button type="button" onclick="document.getElementById('id_login').style.display='none'"
                             class="btn cancelbtn">Cancel</button><br>

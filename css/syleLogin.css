@@ -62,8 +62,8 @@ input[type=password] {
 }
 
 img.avatar {
-    width: 20%;
-    border-radius: 50%;
+    width: 45%;
+    border-radius: 25%;
 }
 
 .container {
